@@ -1,0 +1,212 @@
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+
+body
+{
+    position:relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+	font-family:'Helvetica';
+	background-color:#FFF;
+}
+
+span
+{
+	cursor:default;
+}
+
+.centerx
+{
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+.centery
+{
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.centerxy
+{
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translateY(-50%,-50%);
+	-o-transform:translateY(-50%,-50%);
+	transform:translateY(-50%,-50%);
+}
+
+.main
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+.depicheader
+{
+    position:relative;
+    width:100%;
+    height:150px;
+    display:block;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+	.depicheader > .overlay
+	{
+		position:relative;
+		width:100%;
+		height:100%;
+		background-image: linear-gradient(transparent, #000);
+	}
+
+		.depicheader > .overlay > .details
+		{
+			position:absolute;
+			bottom:15px;
+			left:15px;
+			height:auto;
+			width:calc(100% - 30px);       
+			color:#FFF;
+		}
+
+			.depicheader > .overlay > .details > .name
+			{
+				display:block;
+				margin:auto;
+				font-size:12pt;
+			}
+
+			.depicheader > .overlay > .details > .subname
+			{
+				display:block;
+				margin:auto;
+				font-size:9pt;
+			}
+
+.depicbody
+{
+    position:relative;
+    width:calc(100% - 30px);
+    height:auto;
+    padding:15px;
+    font-size:10pt;
+}
+
+	.depicbody > .subjecttext
+	{
+		font-size:11pt;
+		font-weight:bold;
+		margin: 15px 0 5px 0;
+		display:block;
+	}
+
+	.depicbody > .screenshotholder
+	{
+		position:relative;
+		width:100%;
+		height:300px;
+		overflow-x:auto;
+		overflow-y:hidden;
+		-webkit-overflow-scrolling:touch;
+		margin:5px 0 5px 0;
+		display:inline-flex;
+		white-space:nowrap;
+	}
+
+		.depicbody > .screenshotholder > .screenshotitem
+		{
+			position:relative;
+			margin:5px;
+			height:calc(100% - 10px);
+			width:auto;
+			display:inline-block;
+		}
+
+.depicfooter
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	background-color:rgba(0,0,0,0.2);
+}
+	
+	.depicfooter > .paypalbtn
+	{
+		position:relative;
+		color:#000;
+		background-color:#FFF;
+		font-size:10pt;
+		text-align:center;
+		display:inline-flex;
+		white-space:nowrap;
+		width:100%;
+		height:50px;
+		cursor:pointer;
+		-webkit-transition:0.3s;
+		-moz-transition:0.3s;
+		-o-transition:0.3s;
+		transition:0.3s;
+		border-top:1px solid #CCC;
+	}
+	
+	.depicfooter > .paypalbtn:hover
+	{
+		color:#0098D8;
+	}
+
+		.depicfooter > .paypalbtn > .left
+		{
+			position:relative;
+			width:50px;
+			height:100%;
+			display:inline-block;
+		}
+
+			.depicfooter > .paypalbtn > .left > .logo
+			{
+				position:absolute;
+				font-size:15pt;
+			}
+
+		.depicfooter > .paypalbtn > .right
+		{
+			position:relative;
+			width:calc(100% - 50px);
+			height:100%;
+			display:inline-block;
+		}
+
+			.depicfooter > .paypalbtn > .right > .label
+			{
+				position:absolute;
+				right:10px;
+				font-size:12pt;
+				font-weight:bold;
+				cursor:pointer;
+			}

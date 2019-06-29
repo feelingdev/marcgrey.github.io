@@ -1,0 +1,127 @@
+Package: com.marcusenzo.dragonballz
+Name: Dragon Ball Z
+Version: 1.3
+Architecture: iphoneos-arm
+Description: A lockscreen widget
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: Xen HTML
+Depends:
+Filename: debs//com.marcusenzo.dragonballz_1.3_iphoneos-arm.deb
+Size: 1496828
+MD5sum: cfd11bf5956444c7a92989cbaa8be877
+SHA1: db372e7bff843c39f37318ef1a1b3cb676fbded9
+SHA256: 6995cf33550c5a7583682c9da6592a8e23480799622002f2bdb70451b900bc46
+Depiction: https://marcgrey.github.io/depic/xen_html/dragon_ball_z/index.html
+
+Package: com.marcusenzo.gallifreyan
+Name: Gallifreyan
+Version: 0.2
+Architecture: iphoneos-arm
+Description: A lockglyph theme
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: LockGlyph
+Depends:
+Filename: debs//com.marcusenzo.gallifreyan_0.2_iphoneos-arm.deb
+Size: 20354
+MD5sum: b026eb7b8d595c4663183b7cb2b98f42
+SHA1: acbc0fcf9a62b5576bebb8a21dee496ca332c324
+SHA256: ebdfafc89cd9820e2aa5d2d0b26923ad34c31e3ef690dc12ff9e8380f115085f
+Depiction: https://marcgrey.github.io/depic/lockglyph/gallifreyan/index.html
+
+Package: com.marcusenzo.arcreactor
+Name: Arc Reactor
+Version: 0.1
+Architecture: iphoneos-arm
+Description: A lockglyph theme
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: LockGlyph
+Depends:
+Filename: debs//com.marcusenzo.arcreactor_0.1_iphoneos-arm.deb
+Size: 20620
+MD5sum: c5225e4be4b56676d25bd94f243109de
+SHA1: 633a6163194d316d3b50a05bb93c758039044195
+SHA256: 409cf65082d6a6ed40f5ebf7e2885332b6a9983a87a876968bd803aee32fdef7
+Depiction: https://marcgrey.github.io/depic/lockglyph/arc_reactor/index.html
+
+Package: com.marcusenzo.pikachu
+Name: Pikachu
+Version: 0.2
+Architecture: iphoneos-arm
+Description: A lockscreen widget
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: Xen HTML
+Depends:
+Filename: debs//com.marcusenzo.pikachu_0.2_iphoneos-arm.deb
+Size: 5150192
+MD5sum: 9d4315e93feb2bd70985c996477149c7
+SHA1: ecc965c3e1d16fc93fcad27bc6289ace3f4f412f
+SHA256: 8325448fce0daf04f0c154e10c28bab2738ce7bcfac6c80640fec12a55521efb
+Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_pikachu/index.html
+
+Package: com.marcusenzo.ricknmorty
+Name: Rick & Morty
+Version: 0.1
+Architecture: iphoneos-arm
+Description: A lockglyph theme
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: LockGlyph
+Depends:
+Filename: debs//com.marcusenzo.ricknmorty_0.1_iphoneos-arm.deb
+Size: 51076
+MD5sum: f4ec9e88e4646d6c5d88a61b5e31bb83
+SHA1: fd1438bdeeb7dc9632ceb78e2a772acd17343e91
+SHA256: 9eb24d3a3875351953445c7f054038fe282fb5911952a25d6c203f7aa644ef6c
+Depiction: https://marcgrey.github.io/depic/lockglyph/rick_n_morty/index.html
+
+Package: com.marcusenzo.greninja
+Name: Greninja
+Version: 0.2
+Architecture: iphoneos-arm
+Description: A lockscreen widget
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: Xen HTML
+Depends:
+Filename: debs//com.marcusenzo.greninja_0.2_iphoneos-arm.deb
+Size: 5758492
+MD5sum: eb61a502e89e9157e7fa9f527667fa66
+SHA1: c4c82d4de51e416341a312c662054f2b30608dd7
+SHA256: 07fd32d7ff6a29755df19e13bad85be9e06d421cc0bc84a839b4b385adac0023
+Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_greninja/index.html
+
+Package: com.marcusenzo.siriorb
+Name: Siri Orb
+Version: 0.3
+Architecture: iphoneos-arm
+Description: A lockglyph theme
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: LockGlyph
+Depends:
+Filename: debs//com.marcusenzo.siriorb_0.3_iphoneos-arm.deb
+Size: 74504
+MD5sum: 5f02409e2697369a8633657fb42f8998
+SHA1: 858f3e913539da5db3c30275946cb763da01dcf6
+SHA256: be83ddfc1d1ab820023a785c3eed8905939ea9df6b62f46d032b82c7f191a80c
+Depiction: https://marcgrey.github.io/depic/lockglyph/siri_orb/index.html
+
+Package: com.marcusenzo.mew
+Name: Mew
+Version: 0.1
+Architecture: iphoneos-arm
+Description: A lockscreen widget
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: Xen HTML
+Depends:
+Filename: debs//com.marcusenzo.mew_0.1_iphoneos-arm.deb
+Size: 3221492
+MD5sum: 95655531a1fa1bdef6bb4198aa1991a8
+SHA1: 3a3d58ad538a848cd57970594f3895d2906e6337
+SHA256: aa0ac529773302248cdee17d036fd91cbf7d00feaede6bd4cf93c9c1a6bdd6a2
+Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_mew/index.html

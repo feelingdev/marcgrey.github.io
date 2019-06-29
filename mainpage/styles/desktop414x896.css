@@ -1,0 +1,505 @@
+@media (max-width:414px)
+{
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.container
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:1440px;
+	height:900px;
+	overflow:hidden;
+	transform:scale(0.4);
+	transform-origin: top left;
+	border:1px solid #CCCCCC
+}
+
+body
+{
+	font-family:'Helvetica';
+}
+
+span
+{
+	cursor:default;
+}
+
+.centerx
+{
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+.centery
+{
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.centerxy
+{
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translateY(-50%,-50%);
+	-o-transform:translateY(-50%,-50%);
+	transform:translateY(-50%,-50%);
+}
+
+.main
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:inline-flex;
+	white-space:nowrap;
+    /* position:relative; */
+}
+
+.sidepanel
+{
+	position:absolute;
+	top:0;
+	left:-100%;
+	width:250px;
+	height:100%;
+	display:inline-block;
+	background-color:#294A5D;
+	overflow:hidden;
+	z-index:4;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+
+	.sidepanel > .header
+	{
+		position:relative;
+		width:100%;
+		height:50px;
+		display:inline-flex;
+		background-color:#52A6D6;
+	}
+
+		.sidepanel > .header > .left
+		{
+			position:relative;
+			width:40px;
+			height:100%;
+			display:inline-block;
+		}
+
+			.sidepanel > .header > .left > .logo
+			{
+				position:absolute;
+				color:#FFF;
+				font-size:25pt;
+			}
+
+		.sidepanel > .header > .right
+		{
+			position:relative;
+			width:calc(100% - 40px);
+			height:100%;
+			display:inline-block;
+		}
+
+			.sidepanel > .header > .right > .appname
+			{
+				position:absolute;
+				left:0;
+				color:#FFF;
+				font-size:12pt;
+				font-weight:bold;
+			}
+
+	.sidepanel > .body
+	{
+		position:relative;
+		width:100%;
+		height:calc(100% - 200px);
+		padding:10px;
+	}
+	
+		.sidepanel > .body > .sidepanelitem
+		{
+			position:relative;
+			width:calc(100% - 20px);
+			height:30px;
+			border-radius:2px;
+			margin-bottom:5px;
+			cursor:pointer;
+			-webkit-transition:0.3s;
+			-moz-transition:0.3s;
+			-o-transition:0.3s;
+			transition:0.3s;
+		}
+	
+		.sidepanel > .body > .sidepanelitem:hover
+		{
+			background-color:#3F5D6F;
+		}
+	
+		.sidepanel > .body > .sidepanelitem > .itemname
+		{
+			position:absolute;
+			left:10px;
+			color:#FFF;
+			font-size:10pt;
+			cursor:pointer;
+		}
+
+	.sidepanel > .footer
+	{
+		position:relative;
+		width:100%;
+		height:150px;
+		background-color:rgba(0,0,0,0.2);
+	}
+	
+		.sidepanel > .footer > .footernote
+		{
+			position:relative;
+			color:#FFF;
+			font-size:9pt;
+			text-align:center;
+			display:block;
+		}
+		
+		.sidepanel > .footer > .paypalbtn
+		{
+			position:relative;
+			color:#000;
+			background-color:#FFF;
+			font-size:10pt;
+			text-align:center;
+			display:inline-flex;
+			white-space:nowrap;
+			width:calc(100% - 40px);
+			height:35px;
+			border-radius:2px;
+			cursor:pointer;
+			margin:20px;
+			-webkit-transition:0.3s;
+			-moz-transition:0.3s;
+			-o-transition:0.3s;
+			transition:0.3s;
+		}
+		
+		.sidepanel > .footer > .paypalbtn:hover
+		{
+			color:#0098D8;
+		}
+
+			.sidepanel > .footer > .paypalbtn > .left
+			{
+				position:relative;
+				width:35px;
+				height:100%;
+				display:inline-block;
+			}
+
+				.sidepanel > .footer > .paypalbtn > .left > .logo
+				{
+					position:absolute;
+					font-size:15pt;
+				}
+
+			.sidepanel > .footer > .paypalbtn > .right
+			{
+				position:relative;
+				width:calc(100% - 35px);
+				height:100%;
+				display:inline-block;
+			}
+
+				.sidepanel > .footer > .paypalbtn > .right > .label
+				{
+					position:absolute;
+					right:10px;
+					font-size:12pt;
+					font-weight:bold;
+					cursor:pointer;
+				}
+				
+.mainview
+{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:#FFF;
+}
+				
+	.mainview > .header
+	{
+		position:relative;
+		width:100%;
+		height:50px;
+		display:inline-flex;
+		white-space:nowrap;
+	}
+	
+		.mainview > .header > .sidepanelaccess
+		{
+			position:relative;
+			width:50px;
+			height:50px;
+			display:inline-block;
+			color:#AAA;
+			cursor:pointer;
+		}
+	
+			.mainview > .header > .sidepanelaccess > .sidepanelicon
+			{
+				position:absolute;
+				font-size:15pt;
+			}
+			
+		.mainview > .header > .addtocydia
+		{
+			position:absolute;
+			right:10px;
+			width:auto;
+			height:auto;
+			border-radius:5px;
+			border:1px solid #0098D8;
+			color:#0098D8;
+			padding:5px;
+			font-size:12pt;
+			text-decoration:none;
+		}
+				
+	.mainview > .body
+	{
+		position:relative;
+		width:100%;
+		height:calc(100% - 50px);
+		display:block;
+		overflow:auto;
+		-webkit-overflow-scrolling:touch;
+	}
+					
+		.mainview > .body > .featured
+		{
+			position:relative;
+			width:100%;
+			height:300px;
+			display:inline-flex;
+			white-space:nowrap;
+			overflow:hidden;
+			background-color:#CCC;
+		}
+		
+			.mainview > .body > .featured > .phone
+			{
+				display:none;
+			}
+			
+					.mainview > .body > .featured > .phone > .screen
+					{
+						position:absolute;
+						width:152px;
+						height:270px;
+						display:block;
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:contain;
+						background-color:#000000;
+						overflow:hidden;
+						z-index:99;
+					}
+					
+				.mainview > .body > .featured > .featuredmainitemouter
+				{
+					position:absolute;
+					top:0;
+					left:0;
+					width:100%;
+					height:auto;
+					display:inline-block;
+					-webkit-transition:1s;
+					-moz-transition:1s;
+					-o-transition:1s;
+					transition:1s;
+				}
+						
+					.mainview > .body > .featured > .featuredmainitemouter > .featuredmainitem
+					{
+						position:relative;
+						width:100%;
+						height:300px;
+						display:block;
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:cover;
+						overflow:hidden;
+						cursor:pointer;
+					}
+							
+						.mainview > .body > .featured > .featuredmainitemouter > .featuredmainitem > .details
+						{
+							position:absolute;
+							width:100%;
+							height:75px;
+							bottom:0;
+							left:0;
+							display:block;
+							background-color:rgba(0,0,0,0.5);
+							overflow:hidden;
+							color:#FFF;
+						}
+							
+							.mainview > .body > .featured > .featuredmainitemouter > .featuredmainitem > .details > .info
+							{
+								position:absolute;
+								width:auto;
+								height:auto;
+								left:20px;
+								text-align:left;
+								display:block;
+							}
+							
+								.mainview > .body > .featured > .featuredmainitemouter > .featuredmainitem > .details > .info > .name
+								{
+									position:relative;
+									text-align:left;
+									margin:auto;
+									display:block;
+									font-weight:bold;
+									font-size:12pt;
+									cursor:pointer;
+								}
+							
+								.mainview > .body > .featured > .featuredmainitemouter > .featuredmainitem > .details > .info > .subname
+								{
+									position:relative;
+									text-align:left;
+									margin:auto;
+									display:block;
+									font-weight:bold;
+									font-size:9pt;
+									cursor:pointer;
+								}
+								
+								
+							
+							.mainview > .body > .featured > .featuredmainitemouter > .featuredmainitem > .details > .info:hover
+							{
+								text-decoration:underline;
+							}
+					
+				.mainview > .body > .featured > .featureditems
+				{
+					display:none;
+				}
+					
+					.mainview > .body > .featured > .featureditems > .featureditem
+					{
+						position:relative;
+						width:100%;
+						height:150px;
+						display:block;
+						background-position:center;
+						background-repeat:no-repeat;
+						background-size:cover;
+						overflow:hidden;
+						cursor:pointer;
+					}
+				
+			.mainview > .body > .nonfeatured
+			{
+				position:relative;
+				width:100%;
+				height:auto;
+				display:block;
+			}
+			
+	.modalpopup
+	{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:10;
+		background-color:rgba(0,0,0,0.75);
+		opacity:0;
+		-webkit-transition:0.5s;
+		-moz-transition:0.5s;
+		-o-transition:0.5s;
+		transition:0.5s;
+		display:none;
+		z-index:3;
+	}
+
+	.depiccontainer
+	{
+		position:absolute;
+		width:100%;
+		height:100%;
+		max-width:600px;
+		max-height:600px;
+		border-radius:3px;
+		background-color:#FFF;
+		box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.3);
+		top:-50%;
+		opacity:0;
+		-webkit-transition:0.5s;
+		-moz-transition:0.5s;
+		-o-transition:0.5s;
+		transition:0.5s;
+		display:none;
+		overflow:hidden;
+	}
+
+		.depiccontainer > .modalclosebtn
+		{
+			position:absolute;
+			top:10px;
+			right:10px;
+			width:20px;
+			height:20px;
+			border-radius:20px;
+			background-color:rgba(0,0,0,0.3);
+			z-index:2;
+			cursor:pointer;
+		}
+		
+			.depiccontainer > .modalclosebtn > .closebtnicon
+		{
+			position:absolute;
+			font-size:12pt;
+			color:#FFF;
+		}
+		
+		.depiccontainer > .depiciframe
+		{
+			position:relative;
+			width:100%;
+			height:100%;
+			border:none;
+		}
+}
