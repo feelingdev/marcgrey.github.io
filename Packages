@@ -80,18 +80,18 @@ Depiction: https://marcgrey.github.io/depic/lockglyph/rick_n_morty/index.html
 
 Package: com.marcusenzo.greninja
 Name: Greninja
-Version: 0.2
+Version: 0.3
 Architecture: iphoneos-arm
 Description: A lockscreen widget
 Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
 Author: u/marcusenzo <geraldnalzaga@gmail.com>
 Section: Xen HTML
 Depends:
-Filename: debs//com.marcusenzo.greninja_0.2_iphoneos-arm.deb
-Size: 5758492
-MD5sum: eb61a502e89e9157e7fa9f527667fa66
-SHA1: c4c82d4de51e416341a312c662054f2b30608dd7
-SHA256: 07fd32d7ff6a29755df19e13bad85be9e06d421cc0bc84a839b4b385adac0023
+Filename: debs//com.marcusenzo.greninja_0.3_iphoneos-arm.deb
+Size: 5758442
+MD5sum: e7737873104d82b440dcde9d0f30faac
+SHA1: f939f9073f2895c0835982cb8fab29c04440c5e1
+SHA256: 66621fafad42067d00cc034e42e6798c510c5e816b1a859d0920cc1bb9239bfa
 Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_greninja/index.html
 
 Package: com.marcusenzo.siriorb
@@ -112,16 +112,16 @@ Depiction: https://marcgrey.github.io/depic/lockglyph/siri_orb/index.html
 
 Package: com.marcusenzo.mew
 Name: Mew
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Description: A lockscreen widget
 Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
 Author: u/marcusenzo <geraldnalzaga@gmail.com>
 Section: Xen HTML
 Depends:
-Filename: debs//com.marcusenzo.mew_0.1_iphoneos-arm.deb
-Size: 3221492
-MD5sum: 95655531a1fa1bdef6bb4198aa1991a8
-SHA1: 3a3d58ad538a848cd57970594f3895d2906e6337
-SHA256: aa0ac529773302248cdee17d036fd91cbf7d00feaede6bd4cf93c9c1a6bdd6a2
+Filename: debs//com.marcusenzo.mew_0.2_iphoneos-arm.deb
+Size: 3221426
+MD5sum: df4087c3d51ef9f72b315052ff86c20d
+SHA1: 6c4a10ce30a372a7663f5b1eb940ed3bcc12cca9
+SHA256: b11b3fe0991bd8c767881551cb2c59aef8ac81f31de3edd64a6f52dc31f841ba
 Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_mew/index.html
