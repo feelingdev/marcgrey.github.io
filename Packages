@@ -141,3 +141,19 @@ MD5sum: d246d880cd6d5a4d8627f693e5db5b3b
 SHA1: db0da13570b33933ddd885b9d08be0ad6013f022
 SHA256: ee5b1e0ce4052f8c64e66808f1a713458b747339bb1c99bec91ac4ded806aa8a
 Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_porygon/index.html
+
+Package: com.marcusenzo.rotom
+Name: Rotom
+Version: 0.1
+Architecture: iphoneos-arm
+Description: A lockscreen widget
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: Xen HTML
+Depends:
+Filename: debs//com.marcusenzo.rotom_0.1_iphoneos-arm.deb
+Size: 3409470
+MD5sum: 87c3ac94c7f8aaa9c5ca3c8a17fc6ed3
+SHA1: 273280c067dffc861c029aaafffea624a89d35b5
+SHA256: 16705c93df3f76197f40b4c6f76e40bfb11096d5d7f3170bba6628b83a275034
+Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_porygon/index.html
