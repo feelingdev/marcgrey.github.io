@@ -125,3 +125,19 @@ MD5sum: df4087c3d51ef9f72b315052ff86c20d
 SHA1: 6c4a10ce30a372a7663f5b1eb940ed3bcc12cca9
 SHA256: b11b3fe0991bd8c767881551cb2c59aef8ac81f31de3edd64a6f52dc31f841ba
 Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_mew/index.html
+
+Package: com.marcusenzo.porygon
+Name: Porygon
+Version: 0.1
+Architecture: iphoneos-arm
+Description: A lockscreen widget
+Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
+Author: u/marcusenzo <geraldnalzaga@gmail.com>
+Section: Xen HTML
+Depends:
+Filename: debs//com.marcusenzo.porygon_0.1_iphoneos-arm.deb
+Size: 4063164
+MD5sum: d246d880cd6d5a4d8627f693e5db5b3b
+SHA1: db0da13570b33933ddd885b9d08be0ad6013f022
+SHA256: ee5b1e0ce4052f8c64e66808f1a713458b747339bb1c99bec91ac4ded806aa8a
+Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_porygon/index.html
