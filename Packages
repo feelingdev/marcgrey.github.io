@@ -166,10 +166,11 @@ Description: Framework for PokemonTap Lockscreen Widget
 Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
 Author: u/marcusenzo <geraldnalzaga@gmail.com>
 Section: Xen HTML
-Depends:
-Filename: debs//com.marcusenzo.rotom_0.1_iphoneos-arm.deb
-Size: 3409470
-MD5sum: 87c3ac94c7f8aaa9c5ca3c8a17fc6ed3
-SHA1: 273280c067dffc861c029aaafffea624a89d35b5
-SHA256: 16705c93df3f76197f40b4c6f76e40bfb11096d5d7f3170bba6628b83a275034
+Depends: com.junesiphone.xeninfo, com.matchstic.xenhtml
+Filename: debs//com.marcusenzo.pokemontapframework_0.1_iphoneos-arm
+Size: 23722854
+MD5sum: dabbf44276bb6186a26e7c00bce71eaf
+SHA1: 4aa5373fb785ea40dc13e4f2ea380832d3bd2792
+SHA256: fe016def9b213bf9600b089e69909734a782379e0023c1ba2ca334677698e21e
 Depiction:
+
