@@ -160,9 +160,9 @@ Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_rotom/index.html
 
 Package: com.marcusenzo.pokemontapframework
 Name: PokemonTap Framework
-Version: 0.2
+Version: 0.3
 Architecture: iphoneos-arm
-Description: Framework for PokemonTap Lockscreen Widget
+Description: A lockscreen widget
 Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
 Author: u/marcusenzo <geraldnalzaga@gmail.com>
 Section: Xen HTML
@@ -172,4 +172,4 @@ Size: 23723564
 MD5sum: 1f28e664e8d5f7f5f767b726c263aba4
 SHA1: f7d21408c8dc150d4aec49a3f1ad07cab7c548f1
 SHA256: f2c225cb4e62831c852ec7a2259718269f2f25eaf56074500ba45a62dd9ce936
-Depiction: https://marcgrey.github.io/depic/xen_html/pokemon_pikachu/index.html
+Depiction: https://www.patreon.com/pokemontap
