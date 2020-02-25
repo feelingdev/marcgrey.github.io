@@ -167,7 +167,7 @@ Maintainer: u/marcusenzo <geraldnalzaga@gmail.com>
 Author: u/marcusenzo <geraldnalzaga@gmail.com>
 Section: Xen HTML
 Depends: com.junesiphone.xeninfo, com.matchstic.xenhtml
-Filename: debs//com.marcusenzo.pokemontapframework_0.2_iphoneos-arm.deb
+Filename: debs//com.marcusenzo.pokemontapframework_0.3_iphoneos-arm.deb
 Size: 23723564
 MD5sum: 1f28e664e8d5f7f5f767b726c263aba4
 SHA1: f7d21408c8dc150d4aec49a3f1ad07cab7c548f1
